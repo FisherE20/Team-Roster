@@ -2,7 +2,7 @@
 
 ![Project Image](project-image-url)
 
->Short Project Blurb
+>An HTML displaying employees for a company
 
 ---
 
@@ -17,7 +17,7 @@
 ---
 
 ## Description
-What is this project about. Who is the User? What is the purpose of this application? 
+This application with allow for the user to generate a engineering team roster by inputing  information into the terminal and from that input an HTML file is rendered with each member of the team listed. 
 
 #### Technologies
 
@@ -31,10 +31,12 @@ What is this project about. Who is the User? What is the purpose of this applica
 ## How To Use
 
 #### Installation
+This is a terminal based application. In order to run this application you will first need to clone the repo from GitHub. Then open the terminal and type in NPM Install. Once the installation has completed type in node index.js and follow the prompts.
 
 
 
 #### API Reference
+none
 
 ```html
     <p>dummy code</p>
