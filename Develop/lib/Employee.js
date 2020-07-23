@@ -7,8 +7,16 @@ class Employee{
     }
 }
 
+getName()
+
+getID()
+
+getEmail()
+
+getRole()
+
 //Create a new employee
-let employee = new Employee({data.name}, {data.id}, {data.email});
+let employee = new Employee({name}, {id}, {email});
 
 
 module.exports = Employee;

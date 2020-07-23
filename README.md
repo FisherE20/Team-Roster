@@ -17,7 +17,7 @@
 ---
 
 ## Description
-This application with allow for the user to generate a engineering team roster by inputing  information into the terminal and from that input an HTML file is rendered with each member of the team listed. 
+This application will allow for the user to generate a engineering team roster by inputing  information into the terminal and from that input an HTML file is rendered with each member of the team listed. 
 
 #### Technologies
 
