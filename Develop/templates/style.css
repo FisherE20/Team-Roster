@@ -1,0 +1,13 @@
+.jumbotron{
+    background-color: #b0d4c6;
+}
+
+.card-header{
+    background-color: rgb(97, 143, 135);
+    border-radius: 5px;
+}
+
+.card-body{
+    border-radius: 5px ;
+}
+
