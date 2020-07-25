@@ -5,26 +5,27 @@ class Employee{
         this.id = id,
         this.email = email
     }
+    getName() {
+        return ("this.name")
+    };
+    
+    getId( ) {
+        return("this.id")
+    };
+    
+    getEmail() {
+        return('this.email')
+    };
+    
+    getRole() {
+        return("this.role")
+    };
 };
 
-getName() {
-    return ("this.name");
-};
 
-getID( ){
-    return("this.id");
-};
-
-getEmail(){
-    return('this.email');
-};
-
-getRole(){
-    return("this.role");
-};
 
 //Create a new employee
-let employee = new Employee({name}, {id}, {email});
+// let employee = new Employee({name}, {id}, {email});
 
 
 module.exports = Employee;

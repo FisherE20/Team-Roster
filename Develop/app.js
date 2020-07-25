@@ -19,7 +19,7 @@ class Main {
   }
 
   async run() {
-    const { teamsize } = await inquirer.prompt([
+    const { teamSize } = await inquirer.prompt([
       {
         type: "input",
         name: "teamSize",
@@ -29,7 +29,6 @@ class Main {
     ]);
 
     for (let i = 0; 1, teamSize; i++) {
-      console.log("--------------------");
       const response = await inquirer.prompt([
         {
           type: "input",
