@@ -3,7 +3,7 @@ let Employee = require("./Employee");
 
 class Engineer expands Employee {
     constructor (name, id, email, github) {
-        super(name, id, email);
+        super(name, id, email, role);
         this.github = github;
     };
 

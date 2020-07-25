@@ -5,15 +5,23 @@ class Employee{
         this.id = id,
         this.email = email
     }
-}
+};
 
-getName()
+getName() {
+    return ("this.name");
+};
 
-getID()
+getID( ){
+    return("this.id");
+};
 
-getEmail()
+getEmail(){
+    return('this.email');
+};
 
-getRole()
+getRole(){
+    return("this.role");
+};
 
 //Create a new employee
 let employee = new Employee({name}, {id}, {email});
