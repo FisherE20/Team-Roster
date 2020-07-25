@@ -1,6 +1,6 @@
 # Team-Roster
 
-![Project Image](project-image-url)
+![Team Roster](Images/screenShot.png)
 
 >An HTML displaying employees for a company
 
@@ -38,14 +38,24 @@ This is a terminal based application. In order to run this application you will 
 #### API Reference
 none
 
-```html
-    <p>dummy code</p>
+#### Snippet of Code
+```node.js
+    npm i
+```
+```node.js
+    cd develop
+    node app.js
 ```
 [Back To The Top](#Team-Roster)
 
 ---
 
 ## References
+![Team Roster](Images/team.png)
+
+To see this application run folow the link below:
+- YouTube - [YouTube](https://github.com/FisherE20/Team-Roster)
+
 [Back To The Top](#Team-Roster)
 
 ---
