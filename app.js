@@ -23,8 +23,8 @@ class Main {
       {
         type: "input",
         name: "teamSize",
-        message: "Please input your team size"
-        
+        message: "Please input your team size",
+        default: 2,
       },
     ]);
 
@@ -101,7 +101,7 @@ class Main {
         return console.log(err);
       }
 
-      console.log("Team members have all been logged!");
+      console.log("Success!");
     });
   }
 }
@@ -111,4 +111,8 @@ program.run();
 
 
 
-
+// HINT: make sure to build out your classes first! Remember that your Manager, Engineer,
+// and Intern classes should all extend from a class named Employee; see the directions
+// for further information. Be sure to test out each class and verify it generates an
+// object with the correct structure and methods. This structure will be crucial in order
+// for the provided `render` function to work! ```
