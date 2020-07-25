@@ -19,7 +19,7 @@ class Main {
   }
 
   async run() {
-    const { teamSize } = await inquirer.prompt([
+    const {teamSize} = await inquirer.prompt([
       {
         type: "input",
         name: "teamSize",
@@ -27,8 +27,9 @@ class Main {
         
       },
     ]);
+    console.log(teamSize);
 
-    for (let i = 0; 1, teamSize; i++) {
+    for (let i = 0; i < teamSize; i++) {
       const response = await inquirer.prompt([
         {
           type: "input",
@@ -69,6 +70,7 @@ class Main {
           message: "Enter manager's office number",
           when: ({ role }) => role === "Manager",
         },
+
       ]);
 
       const { name, id, email, role, github, school, officeNumber } = response;

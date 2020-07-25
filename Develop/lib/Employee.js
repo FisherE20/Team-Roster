@@ -6,26 +6,25 @@ class Employee{
         this.email = email
     }
     getName() {
-        return ("this.name")
+        return (this.name)
     };
     
     getId( ) {
-        return("this.id")
+        return(this.id)
     };
     
     getEmail() {
-        return('this.email')
+        return(this.email)
     };
     
     getRole() {
-        return("this.role")
+        return(this.role)
     };
 };
 
 
 
-//Create a new employee
-// let employee = new Employee({name}, {id}, {email});
+
 
 
 module.exports = Employee;
